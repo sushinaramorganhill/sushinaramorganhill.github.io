@@ -1,0 +1,142 @@
+/* Global */
+:root {
+  /* color */
+  --color-primary: #1a4089;
+  --color-secondary: #f4f4f6;
+  --color-tertiary: #ff585f;
+  --color-primary-darker: #4bbb7d;
+  --color-secondary-darker: #ffbb00;
+  --color-tertiary-darker: #fd424b;
+  --color-primary-opacity: #5ec5763a;
+  --color-secondary-opacity: #ffcd0331;
+  --color-tertiary-opacity: #ff58602d;
+  --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+  --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
+
+  /* font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 20px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* font weight */
+  --wight-bold: 700;
+  --wight-semi-bold: 600;
+  --wight-regular: 400;
+
+  /* size */
+  --border-radius: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size: 62.5%; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--wight-bold);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--wight-semi-bold);
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--wight-semi-bold);
+}
+
+p {
+  font-size: var(--font-small);
+  font-weight: var(--wight-regular);
+}
+nav {
+  width: 100%;
+  padding: 30px 0 20px 0;
+
+  color: var(--color-primary);
+  background-color: white;
+  background-image: url(images/home/home_bg-01.jpg);
+}
+/* @import 'compass/css3';
+.container {
+  display: flex;
+  justify-content: center;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 100%;
+  min-width: 50%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #9be15d;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  display: block;
+  background: tomato;
+  padding: 5px;
+  width: 350px;
+  height: 300px;
+  margin: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+}
+.card {
+  position: relative;
+  display: block;
+  flex-direction: column;
+}
+.roll_img {
+  background-image: url(images/specail-roll/01_angelina.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.card p {
+  background-color: #4bbb7d;
+  margin: 0;
+  padding: 0;
+} */

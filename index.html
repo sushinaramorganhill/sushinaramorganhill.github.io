@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Sushi Nara</title>
+    <script
+      src="https://kit.fontawesome.com/0753d83295.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="carousel.css" />
+    <script src="main.js" defer></script>
+    <script src="carousel.js" defer></script>
+
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <a href="#">SUSHI NARA</a>
+      </div>
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item active" data-link="#home">Home</li>
+          <li class="navbar__menu__item" data-link="#about__link">About</li>
+          <li class="navbar__menu__item" data-link="#menu__link">Menu</li>
+          <li class="navbar__menu__item" data-link="#catering__link">Catering</li>
+
+          <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+      <button class="navbar__toggle-btn">
+        <!-- <i class="fas fa-bars"></i> -->
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </button>
+      <!-- <button id="navbar__toggle-btn">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </button> -->
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <h1 class="home__title">Welcome to Sushi Nara</h1>
+        <!-- <button class="home__contact" data-link="#contact">Contact me</button> -->
+      </div>
+    </section>
+
+    <!--About  -->
+    <div id="about__link"></div>
+    <section id="about" class="section">
+      <div class="section__container">
+        <div class="gray-box"></div>
+
+        <div class="grid">
+          <div class="about__container">
+            <h1 class="about__title">
+              Authentic Japanese <br />
+              Restaurant in the <br />Heart of Morgan Hill
+            </h1>
+            <p>
+              Established in 2010, Sushi Nara has been serving our community for
+              more than 10 years, We pride ourselves on offering the freshest,
+              most delicious ingredients and seafood available in the market
+              place. Our fresh fish comes to us from all over the globe as we
+              only deliver the best quality to and for our customers.
+            </p>
+          </div>
+
+          <div class="about__img remove">
+            <img src="images/about/about-img.jpg" alt="" width="400px" />
+          </div>
+
+          <div class="img_tea">
+            <img src="images/about/about_img_tea.png" alt=""  />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+
+    <div id="menu__link"></div>
+    <section id="menu" class="section">
+      <div class="section__container menu-container-size">
+        <h1 class="menu__title">Our Menu</h1>
+     
+        <ul class="menus">
+          <a class="menu lunch active-menu">
+            <li>
+              <p>
+                <span>Lunch</span>
+              </p>
+            </li>
+          </a>
+          <a class="menu dinner">
+          <li>
+            <p>
+              <span>Dinner</span>
+            </p>
+            
+          </li></a>
+          <a class="menu appetizer">
+            <li>
+              <p>
+                <span style="font-size: 1.5rem">Appetizer/Side Dishes</span>
+              </p>
+             
+            </li>
+          </a>
+          <a class="menu drinks">
+            <li>
+              <p>
+                <span>Drinks</span>
+              </p>
+            </li>
+          </a>   
+          <a class="menu rolls" href="special-rolls.html">
+            <li >
+              <p ><span>Special Rolls</span></p>
+            </li>
+          </a>    
+        </ul>
+
+        <div class="dropdown-box_container ">
+          <div class="dropdown-box_position">
+            <div class="dropdown-box lunch">
+              
+              <div class="drowBox">
+                <div class="opener">
+                  <p>Lunch Special</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul class="content">
+                  <div class="serves">Served w/ miso soup, salad, and rice</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Chicken Teriyaki</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Teriyaki</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Saba Shioyaki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Grilled mackerel</p>
+                    </div>
+                    <div class="menu__item_price">17.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Shioyaki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Grilled salmon</p>
+                    </div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Don Katsu
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Deep fried pork cutlet</p>
+                    </div>
+                    <div class="menu__item_price">17.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Chicken Katsu
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Deep fried chicken cutlet</p>
+                    </div>
+                    <div class="menu__item_price">17.95</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox ">
+                <div class="opener">
+                  <p>Lunch Special Bento Box</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>      
+                <ul class="content">
+                  <div class="serves">Served w/ miso soup, salad, and rice</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Chicken Teriyaki & Tempura</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chicken Teriyaki & Cali roll</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chicken Teriyaki & Gyoza</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chicken Teriyaki & Sashimi</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">
+                      Chicken Teriyaki & Salmon Teriyaki
+                    </div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">
+                      Chicken Teriyaki & Saba shioyaki
+                    </div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Beef Teriyaki & Tempura</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Cali roll</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Gyoza</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Sashimi</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Saba shioyaki</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Salmon Teriyaki</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Salmon Teriyaki & Tempura</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Teriyaki & Cali roll</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Teriyaki & Gyoza</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Teriyaki & Sashimi</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Salmon Teriyaki & Saba shioyaki</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                  <p class="menu__catetory">Sushi and Sashimi Lunch Special</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul class="content">
+                  <div class="serves">Served w/ miso soup</div>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Town #1
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 8pcs California roll & 6pcs Chef’s choice Nigiri sushi</p>
+                    </div>
+                    <div class="menu__item_price">23.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Town #2
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 6pcs Tuna roll & 6pcs Chef’s choice Nigiri sushi</p>
+                    </div>
+                    <div class="menu__item_price">23.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Town #3
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 3pcs Tuna sashimi & 6pcs Chef’s choice Nigiri sushi</p>
+                    </div>
+                    <div class="menu__item_price">23.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Nigiri Combo
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Chef’s choice of 8pcs Nigiri sushi</p>
+                    </div>
+                    <div class="menu__item_price">25.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Unagi Donburi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 7pcs cooked eel over sushi rice</p>
+                    </div>
+                    <div class="menu__item_price">24.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chirashi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Assortment of sashimi served over sushi rice</p>
+                    </div>
+                    <div class="menu__item_price">26.95</div>
+                  </li>
+                  <div class="serves">Served w/ miso soup, salad, rice</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Maguro Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 9pcs of sliced tuna</p>
+                    </div>
+                    <div class="menu__item_price">23.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 9pcs of sliced salmon</p>
+                    </div>
+                    <div class="menu__item_price">23.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hamach Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 9pcs of sliced yellowtail</p>
+                    </div>
+                    <div class="menu__item_price">23.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Combo Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 9pcs chef’s choice of assorted raw fish</p>
+                    </div>
+                    <div class="menu__item_price">23.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Family Combo #1
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Rainbow roll, Midori Michi roll<br/>
+                        8ocs chef’s choice of Nigiri sushi<br/>
+                        6pcs chef’s choice of sashimi<br/>
+                        Served with 2 miso soups</p>
+                    </div>
+                    <div class="menu__item_price">71.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Family Combo #2
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Victoria secret roll, Dragon roll<br/>
+                        Rainbow roll, Midori Michi roll<br/>
+                        8pcs chef’s choice of Nigiri sushi<br/>
+                        6pcs chef’s choice of sashimi<br/>
+                        Served with 4 miso soups</p>
+                    </div>
+                    <div class="menu__item_price">103.95</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                  <p class="menu__catetory">Udon & Ramyeon</p>
+                  <i class="fas fa-chevron-down"></i>      
+                </div>
+                <ul class="content">
+                  <div class="serves">Served w/ salad</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Nabeyaki Udon
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Chicken, egg, vegetables, shrimp tempura</p>
+                    </div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Seafood Udon
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Assorted Seafood</p>
+                    </div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tempura Udon
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Assorted tempura on the side</p>
+                    </div>
+                    <div class="menu__item_price">18.95</div>
+                  </li>
+                  <div class="serves">Served w/ Salad, egg, vegetables</div>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spicy Ramyeon</div>
+                    <div class="menu__item_price">13.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Mild Ramyeon</div>
+                    <div class="menu__item_price">13.95</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                <p>Nigiri Sushi</p>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+                <ul class="content">
+                  <div class="serves">Fresh fish on top of sushi rice (2pcs per order)</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Maguro
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">  Tuna</p>
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Sake Fresh
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">  Salmon</p> 
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Sake Smoked
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">  Salmon</p> 
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hamachi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">   Yellowtail</p> 
+                    </div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Shiro maguro
+                       <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">   Albacore Tuna</p> </div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hirame
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">    Halibut</p>
+                    </div>
+                    <div class="menu__item_price">8.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Saba 
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">    Mackerel</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ika<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Squid</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tako 
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Octopus</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ebi<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Cooked Shrimp</p></div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Unagi<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Fresh Water Eel</p></div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tamago<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Egg</p></div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ama-Ebi<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Sweet Shrimp</p></div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Uni<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Sea Urchin</p></div>
+                    <div class="menu__item_price">SEASONAL</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hokki gai<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Surf Clam</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hotate<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Scallop</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Toro<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Fatty Tuna</p></div>
+                    <div class="menu__item_price">SEASONAL</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tobiko<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Flying Fish Roe</p></div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ikura<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Salmon Roe</p></div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Inari<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Sweet Tofu</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Masago<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Smelt egg</p></div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ono<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Escolar</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tai<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Tilapia</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name last_margin">
+                      Quail’s Egg <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Served with tobiko or ikura</p>
+                    </div>
+                    <div class="menu__item_price">1.00</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox ">
+                <div class="opener">
+                  <p class="menu__catetory">Sushi Nara Regular Rolls</p>
+                  <i class="fas fa-chevron-down"></i>
+      
+                </div>
+                <ul class="content">
+                  <div class="roll_category">Hand Rolls</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Spicy Tuna</div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spicy Scallop</div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Skin</div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Unagi</div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <div class="roll_category">Vegetarian Rolls</div>
+      
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Avocado Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Avocado</p>
+                    </div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Kappa Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Cucumber</p>
+                    </div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Oshinko Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Pickled Radish</p>
+                    </div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Avocado Cucumber Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Avocado and Cucumber</p>
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">
+                      Natto Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Japanese Bean Paste w/ Green Onion</p>
+                    </div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Futo Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Assorted vegetable roll</p></div>
+                    <div class="menu__item_price">12.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">
+                      Fried Farm
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried Vegetables</p>
+                    </div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+      
+                  <div class="roll_category">Regular Rolls</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">California Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Crab meat, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">7.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spicy California Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Spicy crab meat, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">New York Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Cooked shrimp, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">8.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tekka Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Tuna roll</p>
+                    </div>
+                    <div class="menu__item_price">7.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">911 Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Tuna, sriracha sauce</p>
+                    </div>
+                    <div class="menu__item_price">7.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Sake Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Salmon, avocado</p>
+                    </div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hamachi Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Yellowtail, green onion</p>
+                    </div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Shrimp Tempura Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried shrimp, avocado, cucumber, sweet sauce</p>
+                    </div>
+                    <div class="menu__item_price">9.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spider Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried soft shell crab, avocado, cucumber, sweet sauce</p>
+                    </div>
+                    <div class="menu__item_price">9.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Philadelphia Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Salmon, cream cheese, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">9.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spciy Tuna Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Spicy tuna, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Rock & Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Eel, avocado, cucumber, sweet sauce</p>
+                    </div>
+                    <div class="menu__item_price">9.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hawaii Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Tuna, avocado, cucumber, macadamia nuts</p>
+                    </div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Yam Tempura Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried yam, avocado, cucumber, sweet sauce</p>
+                    </div>
+                    <div class="menu__item_price">7.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Morgan Hill Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Salmon, yellowtail, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Crunch Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried shrimp, macadamia nuts, cream cheese,
+                        crunch sweet sauce on top</p>
+                    </div>
+                    <div class="menu__item_price">10.95</div>
+                  </li>
+      
+                </ul>
+              </div>
+            </div>
+            <div class="dropdown-box  dinner">     
+              <div class="drowBox">
+                <div class="opener">
+                  <p>Dinner Special</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul class="content">
+                  <div class="serves">Served w/ miso soup, salad, and rice</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Chicken Teriyaki</div>
+                    <div class="menu__item_price">21.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki</div>
+                    <div class="menu__item_price">22.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Teriyaki
+
+                    </div>
+                    <div class="menu__item_price">22.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Saba Shioyaki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Grilled mackerel</p>
+
+                    </div>
+                    <div class="menu__item_price">19.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Shioyaki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Grilled salmon</p>
+                    </div>
+                    <div class="menu__item_price">22.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Don Katsu                      
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Deep fried pork cutlet</p>
+                    </div>
+                    <div class="menu__item_price">20.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chicken Katsu
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Deep fried chicken cutlet</p>
+                    </div>
+                    <div class="menu__item_price">20.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Galbi(BBQ Short Ribs)</div>
+                    <div class="menu__item_price">29.95</div>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="drowBox">
+                <div class="opener">
+                  <p>Dinner Special Bento Box</p>
+                  <i class="fas fa-chevron-down"></i>
+      
+                </div>
+      
+                <ul class="content">
+                  <div class="serves">Served w/ miso soup, salad, and rice</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Chicken Teriyaki & Tempura</div>
+                    <div class="menu__item_price">20.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chicken Teriyaki & Cali roll</div>
+                    <div class="menu__item_price">20.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chicken Teriyaki & Gyoza</div>
+                    <div class="menu__item_price">20.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chicken Teriyaki & Sashimi</div>
+                    <div class="menu__item_price">20.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">
+                      Chicken Teriyaki & Salmon Teriyaki
+                    </div>
+                    <div class="menu__item_price">20.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">
+                      Chicken Teriyaki & Saba shioyaki
+                    </div>
+                    <div class="menu__item_price">20.50</div>
+                  </li>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Beef Teriyaki & Tempura</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Cali roll</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Gyoza</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Sashimi</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Saba shioyaki</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Beef Teriyaki & Salmon Teriyaki</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Salmon Teriyaki & Tempura</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Teriyaki & Cali roll</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Teriyaki & Gyoza</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Teriyaki & Sashimi</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Salmon Teriyaki & Saba shioyaki</div>
+                    <div class="menu__item_price">21.50</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                  <p class="menu__catetory">Sushi and Sashimi dinner Special</p>
+                  <i class="fas fa-chevron-down"></i>
+      
+                </div>
+                <ul class="content">
+                  <div class="serves">Served w/ miso soup</div>
+
+                  <li class="menu__item">
+                    <div class="menu__item_name">Sushi Nara #1
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 8pcs California roll & 8pcs Chef’s choice Nigiri sushi</p>
+                    </div>
+                    <div class="menu__item_price">29.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Sushi Nara #2
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 6pcs Tuna roll & 8pcs Chef’s choice Nigiri sushi</p>
+                    </div>
+                    <div class="menu__item_price">29.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Sushi Nara #3
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 4pcs Tuna sashimi & 8pcs Chef’s choice Nigiri sushi</p>
+                    </div>
+                    <div class="menu__item_price">29.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Nigiri Combo
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Chef’s choice of 8pcs Nigiri sushi</p>
+                    </div>
+                    <div class="menu__item_price">25.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Unagi Donburi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 7pcs cooked eel over sushi rice</p>
+                    </div>
+                    <div class="menu__item_price">24.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chirashi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Assortment of sashimi served over sushi rice</p>
+                    </div>
+                    <div class="menu__item_price">29.95</div>
+                  </li>
+                  <div class="serves">Served w/ miso soup, salad, rice</div>
+
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Maguro Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 12pcs of sliced tuna</p>
+                    </div>
+                    <div class="menu__item_price">29.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 12pcs of sliced salmon</p>
+                    </div>
+                    <div class="menu__item_price">28.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hamach Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 12pcs of sliced yellowtail</p>
+                    </div>
+                    <div class="menu__item_price">29.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Combo Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 12pcs chef’s choice of assorted raw fish</p>
+                    </div>
+                    <div class="menu__item_price">29.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Family Combo #1
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Rainbow roll, Midori Michi roll<br/>
+                        8ocs chef’s choice of Nigiri sushi<br/>
+                        6pcs chef’s choice of sashimi<br/>
+                        Served with 2 miso soups</p>
+                    </div>
+                    <div class="menu__item_price">71.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Family Combo #2
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Victoria secret roll, Dragon roll<br/>
+                        Rainbow roll, Midori Michi roll<br/>
+                        8pcs chef’s choice of Nigiri sushi<br/>
+                        6pcs chef’s choice of sashimi<br/>
+                        Served with 4 miso soups</p>
+                    </div>
+                    <div class="menu__item_price">103.95</div>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="drowBox">
+                <div class="opener">
+                  <p class="menu__catetory">Tempura Dinner</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul class="content">
+                  <div class="serves">Served w/ miso soup, salad, and rice</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Vegetable Tempura</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Shrimp Tempura</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Combo Tempura</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                  <p class="menu__catetory">Udon & Ramyeon</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul class="content">
+                  <div class="serves">Served w/ salad</div>
+
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Nabeyaki Udon
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Chicken, egg, vegetables, shrimp tempura</p>
+                    </div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Seafood Udon
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Assorted Seafood</p>
+                    </div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tempura Udon
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Assorted Tempura on the side</p>
+
+                    </div>
+                    <div class="menu__item_price">18.95</div>
+                  </li>
+                  <div class="serves">Served w/ Salad, egg, vegetables</div>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spicy Ramyeon</div>
+                    <div class="menu__item_price">13.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Mild Ramyeon</div>
+                    <div class="menu__item_price">13.95</div>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="drowBox">
+                <div class="opener">
+                <p>Nigiri Sushi</p>
+                <i class="fas fa-chevron-down"></i>
+      
+              </div>
+                <ul class="content">
+                  <div class="serves">Fresh fish on top of sushi rice (2pcs per order)</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Maguro
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">  Tuna</p>
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Sake Fresh
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">  Salmon</p> 
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Sake Smoked
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">  Salmon</p> 
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hamachi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">   Yellowtail</p> 
+                    </div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Shiro maguro
+                       <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">   Albacore Tuna</p> </div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hirame
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">    Halibut</p>
+                    </div>
+                    <div class="menu__item_price">8.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Saba 
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">    Mackerel</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ika<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Squid</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tako 
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Octopus</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ebi<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Cooked Shrimp</p></div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Unagi<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Fresh Water Eel</p></div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tamago<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Egg</p></div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ama-Ebi<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Sweet Shrimp</p></div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Uni<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Sea Urchin</p></div>
+                    <div class="menu__item_price">SEASONAL</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hokki gai<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Surf Clam</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hotate<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Scallop</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Toro<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Fatty Tuna</p></div>
+                    <div class="menu__item_price">SEASONAL</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tobiko<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Flying Fish Roe</p></div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ikura<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Salmon Roe</p></div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Inari<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Sweet Tofu</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Masago<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Smelt egg</p></div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ono<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Escolar</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tai<p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Tilapia</p></div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name last_margin">
+                      Quail’s Egg <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Served with tobiko or ikura</p>
+                    </div>
+                    <div class="menu__item_price">1.00</div>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="drowBox">
+                <div class="opener">
+                  <p class="menu__catetory">Sushi Nara Regular Rolls</p>
+                  <i class="fas fa-chevron-down"></i>
+      
+                </div>
+                <uul class="content">
+                  <div class="roll_category">Hand Rolls</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Spicy Tuna</div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spicy Scallop</div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Skin</div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Unagi</div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <div class="roll_category">Vegetarian Rolls</div>
+      
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Avocado Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Avocado</p>
+                    </div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Kappa Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Cucumber</p>
+                    </div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Oshinko Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Pickled Radish</p>
+                    </div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Avocado Cucumber Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Avocado and Cucumber</p>
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">
+                      Natto Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Japanese Bean Paste w/ Green Onion</p>
+                    </div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Futo Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Assorted vegetable roll</p></div>
+                    <div class="menu__item_price">12.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">
+                      Fried Farm
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried Vegetables</p>
+                    </div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+      
+                  <div class="roll_category">Regular Rolls</div>
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">California Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Crab meat, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">7.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spicy California Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Spicy crab meat, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">8.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">New York Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Cooked shrimp, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">8.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tekka Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Tuna roll</p>
+                    </div>
+                    <div class="menu__item_price">7.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">911 Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Tuna, sriracha sauce</p>
+                    </div>
+                    <div class="menu__item_price">7.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Sake Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Salmon, avocado</p>
+                    </div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hamachi Maki
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Yellowtail, green onion</p>
+                    </div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Shrimp Tempura Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried shrimp, avocado, cucumber, sweet sauce</p>
+                    </div>
+                    <div class="menu__item_price">9.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spider Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried soft shell crab, avocado, cucumber, sweet sauce</p>
+                    </div>
+                    <div class="menu__item_price">9.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Philadelphia Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Salmon, cream cheese, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">9.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Spciy Tuna Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Spicy tuna, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Rock & Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Eel, avocado, cucumber, sweet sauce</p>
+                    </div>
+                    <div class="menu__item_price">9.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hawaii Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Tuna, avocado, cucumber, macadamia nuts</p>
+                    </div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Yam Tempura Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried yam, avocado, cucumber, sweet sauce</p>
+                    </div>
+                    <div class="menu__item_price">7.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Morgan Hill Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Salmon, yellowtail, avocado, cucumber</p>
+                    </div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Crunch Roll
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried shrimp, macadamia nuts, cream cheese,
+                        crunch sweet sauce on top</p>
+                    </div>
+                    <div class="menu__item_price">10.95</div>
+                  </li>
+      
+                </uul>
+              </div>
+              <!-- <div class="dinner__photos">
+                <div style="width:100px; height: 100px; background-color: blueviolet;"></div>
+              </div> -->
+            </div>
+
+            <div class="dropdown-box appetizer">
+              <div class="drowBox ">
+                <div class="opener">
+                  <p>Appetizer</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+      
+                <ul class="content">
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Edamame
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Steamed soy beans</p>
+                    </div>
+                    <div class="menu__item_price">4.95</div>
+
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Gyoza
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 5pcs Potstickers</p>
+                    </div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Egg Rolls
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Vegetable</p>
+                    </div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Agedashi Tofu
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried tofu</p>
+                    </div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Yakitori
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Tender chicken skewers with onions</p>
+                    </div>
+                    <div class="menu__item_price">10.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Baby Shrimp Sticks
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 4pcs crispy shrimp</p>
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Soft Shell Crab
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Deep fried soft shell crab</p>
+                    </div>
+                    <div class="menu__item_price">8.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Crab Crunch
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> Crab meat with crunch on top and sweet & spicy mayo sauce</p>
+                    </div>
+                    <div class="menu__item_price">6.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Vegetable Tempura
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;"> 7pcs assorted deep fried vegetables</p>
+                    </div>
+                    <div class="menu__item_price">9.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Shrimp Tempura
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">5pcs deep fried shrimp</p>
+                    </div>
+                    <div class="menu__item_price">10.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Combo Tempura
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Shrimp and assorted vegetables</p>
+                    </div>
+                    <div class="menu__item_price">10.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hamachi Kama
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Grilled yellowtail cheek</p>
+                    </div>
+                    <div class="menu__item_price">13.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Kama
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Grilled salmon cheek</p>
+                    </div>
+                    <div class="menu__item_price">13.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Cucumber Snomono
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Cucumber salad</p>
+                    </div>
+                    <div class="menu__item_price">4.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Tako Snomono
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Octopus on cucumber snomono</p>
+                    </div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ocean Salad
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Seaweed salad</p>
+                    </div>
+                    <div class="menu__item_price">5.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Little Bomb
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">Deep fried jalapenos filled w/ cream cheese,
+                        spicy tuna, and sauce on top</p>
+                    </div>
+                    <div class="menu__item_price">12.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Maguro Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">7pcs of sliced tuna</p>
+                    </div>
+                    <div class="menu__item_price">18.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Salmon Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">7pcs of sliced salmon</p>
+                    </div>
+                    <div class="menu__item_price">17.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Hamachi Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">7pcs of sliced yellowtail</p>
+                    </div>
+                    <div class="menu__item_price">18.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Combo Sashimi
+                      <p style="font-size: medium; display: block; padding-top: 5px; font-style: italic;">7pcs chef’s choice of assorted raw fish</p>
+                    </div>
+                    <div class="menu__item_price">18.95</div>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="drowBox">
+                <div class="opener">
+                  <p>Side Dishes</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="content">
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Steamed Rice</div>
+                    <div class="menu__item_price">2.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Miso Soup</div>
+                    <div class="menu__item_price">2.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Green Salad</div>
+                    <div class="menu__item_price">3.50</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Brown Rice</div>
+                    <div class="menu__item_price">3.50</div>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-box drinks">
+              <div class="drowBox">
+                <div class="opener">
+                  <p>Japanese Beer</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="content">
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Sapporo, Asahi, Kirin</div>
+                    <div class="menu__item_price">Small 5.99</div>
+                  </li>
+                  
+                  <li class="menu__item ">
+                    <div class="menu__item_name"></div>
+                    <div class="menu__item_price">Large 7.99</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Sapporo Black</div>
+                    <div class="menu__item_price">7.95</div>
+                  </li>
+                </div>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                  <p>Domestic Beer</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+      
+                <ul class="content">
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Coors Light</div>
+                    <div class="menu__item_price">4.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Corona</div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item ">
+                    <div class="menu__item_name">Heineken</div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item ">
+                    <div class="menu__item_name">Sierra Nevada</div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item ">
+                    <div class="menu__item_name">Modelo</div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Odouls(Non Alcoholic)</div>
+                    <div class="menu__item_price">5.50</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                  <p>Premium Sake</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="content">
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Kurobin (300ml)</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Karatamba (300ml)</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Dassai (300ml)</div>
+                    <div class="menu__item_price">19.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Nigori (unfiltered)</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Raspberry sake (300ml)</div>
+                    <div class="menu__item_price">16.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Aladdin sake (300ml)</div>
+                    <div class="menu__item_price">15.95</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Soju (375ml)</div>
+                    <div class="menu__item_price">10.95</div>
+                  </li>
+                </div>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                  <p>House Sake</p>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul class="content">
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name"></div>
+                    <div class="menu__item_price">Small 5.99</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name"></div>
+                    <div class="menu__item_price">Large 7.99</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                  <p>House Wine</p>
+                  <i class="fas fa-chevron-down"></i>
+      
+                </div>
+      
+                <ul class="content">
+                  <li class="menu__item first_margin">
+                    <div class="menu__item_name">Merlot</div>
+                    <div class="menu__item_price">6.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Chardonnay</div>
+                    <div class="menu__item_price">6.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Plum wine</div>
+                    <div class="menu__item_price">6.50</div>
+                  </li>
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Carbenet sauvignon</div>
+                    <div class="menu__item_price">6.50</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="drowBox">
+                <div class="opener">
+                  <p class="menu__catetory">Soft Drinks</p>
+                  <i class="fas fa-chevron-down"></i>
+      
+                </div>
+                <ul class="content">
+                  <li class="menu__item">
+                    <div class="menu__item_name first_margin">Coke, Diet Coke, Sprite,
+                      Root beer, Dr. pepper</div>
+                      <div class="menu__item_price first_margin">2.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Orange Juice</div>
+                    <div class="menu__item_price">3.50</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Apple Juice</div>
+                    <div class="menu__item_price">2.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ramune (Japanese soda)</div>
+                    <div class="menu__item_price">4.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Ice Tea</div>
+                    <div class="menu__item_price">3.95</div>
+                  </li>
+                  <li class="menu__item">
+                    <div class="menu__item_name">Milk</div>
+                    <div class="menu__item_price">1.95</div>
+                  </li>
+                  
+                  <li class="menu__item last_margin">
+                    <div class="menu__item_name">Hot Coco</div>
+                    <div class="menu__item_price">1.95</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+<!--Catering-->
+<div id="catering__link"></div>
+    <section id="catering" class="section">
+      <div class="catering_contents">
+      <h1>Catering</h1>
+      <h3>Sushi for Every Occassion</h3>
+          <p>
+            Whether you host a special gathering at home or bring lunch for your children’s school event, see how Sushi Nara catering can shine your time. We serve food with excellent presentations. We offer everything from our menu for your catering plates.
+          </p>  
+          <img  src="images/catering/catering_img_00.png" alt="">
+
+        </div>
+        <div class="catering_line">
+          <ul class="catering_how-to-order">
+            <div class="how-to-order-p">[How To Order]</div>
+            <li>1. Find dishes you want to order</li>
+            <li>2. Call us and order in advance 24 hours prior to your event <br/>
+               (Dinner time pick-up is available with a morning order)</li>
+            <li>3. Let us know that you want them to be put on catering plates</li>
+            <li>4. We will text you when your order is ready</li>
+            <li>5. Enjoy!</li>
+          </ul>
+          <p style="font-size: 1rem; font-style: italic;">*We will charge $5 per tray.</p>
+        </div>
+        <div class="catering_img_container">
+          <img class="catering_img_box" src="images/catering/catering_img_01.jpg" alt="">
+          <img class="catering_img_box" src="images/catering/catering_img_02.jpg" alt="">
+          <img class="catering_img_box" src="images/catering/catering_img_03.jpg" alt="">
+          <img class="catering_img_box" src="images/catering/catering_img_04.jpg" alt="">
+          <!-- <img class="catering_img_box" src="images/catering/catering_img_05.jpg" alt="">
+          <img class="catering_img_box" src="images/catering/catering_img_06.jpg" alt=""> -->
+          <!-- <img class="catering_img_box" src="images/catering/catering_img_07.jpg" alt=""> -->
+          <!-- <img class="catering_img_box" src="images/catering/catering_img_08.jpg" alt=""> -->
+          
+        </div>
+    </section>
+    <!-- Contact Us -->
+ <div id="contact__link"></div>
+    <section id="contact" class="section">
+      <h1>Contact Us</h1>
+      
+      <div id="contact">
+        <div class="section__container contact-container">
+          <div class="contact-info-box">
+            <div class="contact-info">
+              <h2>
+                Business Hours                
+              </h2>
+                <h3>Monday — Thursday</h3>
+                <p>
+                  Lunch  11:30AM — 2:30PM<br/>
+                  Dinner  5:00PM — 8:30PM
+                </p>  
+                <h3>Friday</h3>
+                <p>Lunch  11:30AM — 2:30PM<br/>
+                Dinner  5:00PM — 9:00PM</p>
+                <h3>Saturday</h3>
+                <p>Dinner  5:00PM — 9:00PM </p>
+                <h3>Sunday</h3>
+                <p>Closed<p/>
+                  <h2 class="phone-address-margin">
+                    Phone              
+                  </h2>
+                  <p>(408) 782 - 7939</p>
+                  <h2 class="phone-address-margin">Address</h2>
+                  <p>301 Vineyard Town Center<br/>
+                    Morgan Hill, CA 95037</p>
+              </div>
+              <div class="remove">
+                <img class="store_photo" src="images/contact/outside.jpg" alt="" width="100%" height="" />
+              </div>
+            </div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25453.653755272007!2d-121.66005556044924!3d37.112098200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e206f0703f36d%3A0x14ff52c62bcc3f9f!2sSushi%20Nara!5e0!3m2!1sen!2sus!4v1648018766915!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="bottom-box-container">
+              <div class="gray-box-2 remove">
+                <div class="social-network">
+                  
+                  <a href="https://www.yelp.com/biz/sushi-nara-morgan-hill-2?osq=sushi+nara" target="blank" class="yelp">
+                    <i class="fa fa-yelp" aria-hidden="true"></i>        
+                  </a>
+                  <a href="" target="blank" class="facebook">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="" target="blank" class="insta">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              
+              <div class="img_butterfly remove"></div>
+            </div>
+            
+          </div>
+        </div>
+        
+
+      </div>
+    </section>
+    <!-- Footer -->
+    <section id="footer">     
+      <p class="contact__rights">2022 Sushi Nara - All rights reserved</p>
+    </section>
+
+
+    <script>
+      const opener = document.querySelectorAll('.opener');
+      const cont = document.querySelectorAll('.content');
+      const arrow = document.querySelectorAll('.opener i');
+
+      function dropdown(open, content, icon) {
+        for (let i = 0; i < open.length; i++) {
+          open[i].addEventListener('click', function () {
+            content[i].classList.toggle('content-active');
+            icon[i].classList.toggle('rotate');
+            for (var j = 0; j < open.length; j++) {
+              if (i != j) {
+                content[j].classList.remove('content-active');
+                icon[j].classList.remove('rotate');
+              }
+            }
+          });
+        }
+      }
+
+      dropdown(opener, cont, arrow);
+
+      var coll = document.getElementsByClassName('opener');
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener('click', function () {
+          this.classList.toggle('active');
+          var content = this.nextElementSibling;
+          if (content.style.display === 'block') {
+            content.style.display = 'none';
+          } else {
+            content.style.display = 'block';
+          }
+        });
+      }
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,315 @@
+@gray-darker: #444444;
+@gray-dark: #696969;
+@gray: #999999;
+@gray-light: #cccccc;
+@gray-lighter: #ececec;
+@gray-lightest: lighten(@gray-lighter, 4%);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #1a4089;
+}
+
+body {
+  color: white;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 0;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: 'liga' on;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  border-bottom: rgb(18, 228, 217) 1px solid;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.pepper {
+  transform: translateY(-5px);
+  padding-left: 10px;
+}
+.card__container {
+  display: flex;
+  justify-content: center;
+}
+.go-main-menu {
+  display: flex;
+  justify-content: center;
+  margin: 0 10%;
+  width: 80%;
+  padding: 30px 30px 10px 30px;
+}
+.bottom_links {
+  display: flex;
+  justify-content: center;
+  margin: 0 10%;
+  width: 80%;
+  padding: 2rem 0 4rem 0;
+}
+.go-main-menu_bottom {
+  padding: 0 1rem;
+}
+.go-top {
+  padding: 0 1rem;
+}
+.go-main-menu_bottom:hover,
+.go-top:hover {
+  border-bottom: rgb(18, 228, 217) 1px solid;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__item {
+  display: flex;
+  padding: 1rem;
+  //   @media (min-width: 40rem) {
+  //     width: 50%;
+  //   }
+  @media (min-width: 56rem) {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  position: relative;
+  min-width: 100%;
+  background-color: white;
+  padding-bottom: 0.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  //   &:hover {
+  //     .card__image {
+  //       filter: contrast(100%);
+  //     }
+  //   }
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  //   filter: contrast(70%);
+  //   //filter: saturate(180%);
+  //   overflow: hidden;
+  //   position: relative;
+  //   transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  &::before {
+    content: '';
+    display: block;
+    padding-top: 56.25%; // 16:9 aspect ratio
+  }
+  @media (min-width: 40rem) {
+    &::before {
+      padding-top: 66.6%; // 3:2 aspect ratio
+    }
+  }
+}
+
+.card__title {
+  color: @gray-dark;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #1a4089;
+}
+
+.card__text {
+  flex: 1 1 auto;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  color: @gray-dark;
+}
+
+.price {
+  padding-top: 0.5rem;
+  color: @gray-dark;
+  color: #1a4089;
+  width: 100%;
+  margin: 0%;
+}
+
+.card__image--01 {
+  background-image: url(images/specail-roll/01_angelina.png);
+}
+
+.card__image--02 {
+  background-image: url(images/specail-roll/02_dragon.png);
+}
+
+.card__image--03 {
+  background-image: url(images/specail-roll/03_white-dragon.png);
+}
+
+.card__image--04 {
+  background-image: url(images/specail-roll/04_eternal-sunshine.png);
+}
+
+.card__image--05 {
+  background-image: url(images/specail-roll/05_midori-michi.png);
+}
+
+.card__image--06 {
+  background-image: url(images/specail-roll/06_grinch-roll.png);
+}
+
+.card__image--07 {
+  background-image: url(images/specail-roll/07_chrry-blossom.png);
+}
+
+.card__image--08 {
+  background-image: url(images/specail-roll/08_caterpilla.png);
+}
+
+.card__image--09 {
+  background-image: url(images/specail-roll/09_bing-bang.png);
+}
+
+.card__image--10 {
+  background-image: url(images/specail-roll/10_2ne1.png);
+}
+
+.card__image--11 {
+  background-image: url(images/specail-roll/11_scallop-delight.png);
+}
+
+.card__image--12 {
+  background-image: url(images/specail-roll/12_crazy-roll.png);
+}
+
+.card__image--13 {
+  background-image: url(images/specail-roll/13_rainbow.png);
+}
+
+.card__image--14 {
+  background-image: url(images/specail-roll/14_JJ-roll.png);
+}
+
+.card__image--15 {
+  background-image: url(images/specail-roll/15_dons-special.png);
+}
+
+.card__image--16 {
+  background-image: url(images/specail-roll/16_regulator.png);
+}
+
+.card__image--17 {
+  background-image: url(images/specail-roll/17_super-cali.png);
+}
+
+.card__image--18 {
+  background-image: url(images/specail-roll/18_Bamboo-curtain.png);
+}
+
+.card__image--19 {
+  background-image: url(images/specail-roll/19_tiger-eyes.png);
+}
+
+.card__image--20 {
+  background-image: url(images/specail-roll/20_victoria-secret.png);
+}
+
+.card__image--21 {
+  background-image: url(images/specail-roll/21_red-dragon.png);
+}
+
+.card__image--22 {
+  background-image: url(images/specail-roll/22_jane-special.png);
+}
+
+.card__image--23 {
+  background-image: url(images/specail-roll/23_nara.png);
+}
+
+.card__image--24 {
+  background-image: url(images/specail-roll/24_fly-tempura.png);
+}
+
+.card__image--25 {
+  background-image: url(images/specail-roll/25_g-dragon.png);
+}
+
+.card__image--26 {
+  background-image: url(images/specail-roll/26_shrimp-lover.png);
+}
+
+.card__image--27 {
+  background-image: url(images/specail-roll/27_don3.png);
+}
+
+.card__image--28 {
+  background-image: url(images/specail-roll/28_king-philly.png);
+}
+
+.card__image--29 {
+  background-image: url(images/specail-roll/29_orange-blossom.png);
+}
+
+.card__image--30 {
+  background-image: url(images/specail-roll/30_shark-special.png);
+}
+
+.card__image--31 {
+  background-image: url(images/specail-roll/31_hamachi-lover.png);
+}
+
+.card__image--32 {
+  background-image: url(images/specail-roll/32_volcano.png);
+}
+
+.card__image--33 {
+  background-image: url(images/specail-roll/33_49ers.png);
+}
+
+.card__image--34 {
+  background-image: url(images/specail-roll/34_lion-king.png);
+}
+
+.card__image--35 {
+  background-image: url(images/specail-roll/35_gozilla.png);
+}
+
+.card__image--36 {
+  background-image: url(images/specail-roll/36_loster-delight.png);
+}
+
+/* For below 786px screen width */
+@media screen and (max-width: 768px) {
+  .cards {
+    width: 100%;
+  }
+}
