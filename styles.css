@@ -576,11 +576,16 @@ a {
 /* For below 786px screen width */
 @media screen and (max-width: 768px) {
   #home {
+    background: url('images/home/home_bg-02.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: block;
-    /* visibility: hidden; */
     height: auto;
     width: 100%;
   }
+
   .navbar__toggle-btn {
     display: block;
   }
