@@ -423,6 +423,7 @@ p {
   font-size: var(--font-regular);
   line-height: 35px;
   margin-bottom: 20px;
+  padding: 0 20px;
 }
 .how-to-order-p {
   color: var(--color-primary);
