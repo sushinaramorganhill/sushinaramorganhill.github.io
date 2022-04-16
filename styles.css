@@ -599,6 +599,9 @@ a {
   .home__title {
     padding-left: 0;
   }
+  .logo {
+    width: 300px;
+  }
   .navbar__toggle-btn {
     display: block;
   }
