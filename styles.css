@@ -436,12 +436,7 @@ p {
   width: 15%;
   margin-bottom: 20px;
 }
-.catering_img_container {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 80%;
-  margin: 0 auto;
-}
+
 .catering_img_box {
   flex-grow: 1;
   flex-shrink: 1;
@@ -706,6 +701,12 @@ a {
   .catering_line {
     width: 90%;
   }
+  .catering_img_container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+}
   .catering_img_box {
     flex-basis: calc(100% - 10px);
     background-color: #1a4089;
